@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.btn {
+  padding: 15px;
+  color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: #603808;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-radius: 50px;
+  border: 1px solid #603808;
+}
+
+.btn-start {
+  margin-left: 73px;
+}
+
+.hero {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.container {
+  background-image: url("./bible-1.jpg");
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 5em;
+}
+
+.welcome {
+  gap: 0.5em;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.intro-2 {
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.answer {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  padding: 7px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.logo {
+  font-size: 17px;
+  color: #603808;
+}
+
+.prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  margin-top: 20px;
+  margin-right: 7px;
+}
+
+.quiz {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsla(33, 85%, 20%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(33, 85%, 20%, 1) 0%,
+    hsla(28, 41%, 55%, 1) 80%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(33, 85%, 20%, 1) 0%,
+    hsla(28, 41%, 55%, 1) 80%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(33, 85%, 20%, 1) 0%,
+    hsla(28, 41%, 55%, 1) 80%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#603808", endColorstr="#BC8A5F", GradientType=1 );
+}
+
+.questions {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1em;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 320px;
+  height: 500px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  /* line-height: 25px; */
+}
+
+.question-number {
+  font-size: 25px;
+}
+
+.title {
+  margin-left: 4px;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #603808;
+  text-transform: uppercase;
+}
+
+.sub-title {
+  margin-left: 15px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.correct-answer {
+  background-color: green;
+}
+
+.wrong-answer {
+  background-color: red;
+}
+
+.results-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.congratulations {
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0px 5px 0px 5px;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5em;
+  background-color: #fff;
+  padding: 20px;
+  width: 320px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    background-image: url("./bible-1-850px.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    background-image: url("./bible-1-1200px.jpg");
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  }
+}
