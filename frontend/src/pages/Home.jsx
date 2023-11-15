@@ -18,13 +18,9 @@ function Home() {
       <Navbar />
       <div className="container">
         <div className="hero">
-          <div>
-            <p className="title">Ojana Bible Quiz</p>
-          </div>
-          <div>
+          <div className="hero-content">
+            <h2 className="title">Ojana Bible Quiz</h2>
             <p className="sub-title">Test your bible knowledge!</p>
-          </div>
-          <div>
             <button onClick={onClick} className="btn btn-start">
               Start Quiz
             </button>

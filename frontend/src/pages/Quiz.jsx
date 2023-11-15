@@ -10,8 +10,8 @@ function Quiz() {
   return (
     <div>
       <Navbar />
-      <div className="quiz">
-        <div>
+      <div className="container">
+        <div className="quiz">
           {quizState.showResults && (
             <div className="results">
               <div className="congratulations">Congratulations!</div>

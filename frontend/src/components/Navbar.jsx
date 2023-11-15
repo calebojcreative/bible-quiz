@@ -5,16 +5,19 @@ function Navbar() {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <div className="nav">
-        <div onClick={() => navigate("/")} className="logo">
-          <FaBible />
-        </div>
-        <div className="logo">
-          <FaBars />
-        </div>
+    <nav class="navbar navbar-expand-md bg-light navbar-light shadow-sm">
+      <div onClick={() => navigate("/")} className="logo">
+        <FaBible />
       </div>
-    </div>
+      <div
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </div>
+    </nav>
   );
 }
 

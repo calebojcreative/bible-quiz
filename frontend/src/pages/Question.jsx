@@ -14,7 +14,7 @@ function Question() {
         <div className="question-number">
           {quizState.currentQuestionIndex + 1}.
         </div>
-        <div>{currentQuestion.question}</div>
+        <div className="question-text">{currentQuestion.question}</div>
       </div>
       <div className="answers">
         {quizState.answers.map((answer, index) => (
