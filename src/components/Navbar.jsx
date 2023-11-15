@@ -1,4 +1,4 @@
-import { FaBars, FaBible } from "react-icons/fa";
+import { FaBible } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
 function Navbar() {
